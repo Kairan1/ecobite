@@ -2,15 +2,17 @@
 
 **PROJECT PROPOSAL**
 
-*   **Course:** BIIT 2305 SEM 2 2025/2026
-*   **Section:** 03 (WEB APPLICATION DEVELOPMENT)
-*   **Lecturer:** DR. NAJHAN BIN MUHAMAD IBRAHIM
-*   **Submission Date:** 24TH MAY 2026
+*   Course: BIIT 2305 SEM 2 2025/2026
+*   Section: 03 (WEB APPLICATION DEVELOPMENT)
+*   Lecturer: DR. NAJHAN BIN MUHAMAD IBRAHIM
+*   Submission Date: 24TH MAY 2026
 
 ## GROUP MEMBERS
 
 | NAME | MATRIC NO |
 | :---: | :---: |
+| MUAZ BIN MOHD AZWARZAMANI | 2410355 |
+| MUHAMMAD AMMAR FAIZ BIN ABDUL RAHMAN | 2411723 |
 | ABDULAZEEZ UMAR OPEYEMI | 2320575 |
 | MUHAMMAD IMAN NURHAKIM BIN SAZALI | 2417689 |
 | MUHAMMAD HAZIQ RAFIF BIN ROHAIZAM | 2413307 |
@@ -19,7 +21,7 @@
 
 ## 1.1 INTRODUCTION
 
-For this class project, the selected application is **EcoBite: A Surplus Food Rescue Web Application**. This system is designed to tackle the issue of food waste within the university campus by connecting budget-conscious students with Mahallah cafes and food kiosks that have unsold, surplus food at the end of the day. The application is planned to be developed as a responsive web-based platform. Its core specifications include a real-time vendor dashboard to list surplus food items at discounted prices (flash sales), a student interface to browse and reserve these items, and an automated pickup verification system. The application must be lightweight, responsive for mobile devices, and highly intuitive for vendors rushing to close their stalls.
+For this class project, the selected application is **EcoBite: A Surplus Food Rescue Web Application**. This system is designed to tackle the issue of food waste within the university campus, especially in IIUM Gombak, by connecting budget-conscious students with Mahallah cafes and food kiosks that have unsold, surplus food at the end of the day. The application is planned to be developed as a responsive web-based platform. Its core specifications include a real-time vendor dashboard to list surplus food items at discounted prices (flash sales), a student interface to browse and reserve these items, and an automated pickup verification system. The application must be lightweight, responsive for mobile devices, and highly intuitive for vendors rushing to close their stalls.
 
 ## 1.2 PROBLEM DESCRIPTION
 
@@ -42,13 +44,13 @@ The main goal of this project is to develop a functional web application that re
 
 **Reports to be produced:**
 
-Throughout the project lifecycle, key reports will be produced, including the Project Proposal, the Software Requirements Specification (SRS), the Software Design Document (SDD), and the Final Project Report detailing the testing and evaluation phases.
+Throughout the project lifecycle, key reports will be produced, including the Project Proposal, the Software Requirements Specification (SRS), the Software Design Document (SDD), and the Final Project Report, which details the testing and evaluation phases.
 
 **Processes to be automated:**
 
 Based on the identified problems, the application will automate:
 
-*   **Surplus Listing:** Automating the process for vendors to quickly list remaining inventory at dynamically discounted prices.
+*   **Surplus Listing:** Automating the process for vendors to list remaining inventory at dynamically discounted prices quickly.
 *   **Reservation and Checkout:** Automating the student's ability to claim and pay for a discounted meal remotely before it is discarded.
 *   **Pickup Coordination:** Generating automated digital tickets or order codes to verify the student's claim upon physical pickup.
 
@@ -58,7 +60,7 @@ Based on the identified problems, the application will automate:
 
 The scope of the EcoBite application covers two primary modules:
 
-*   **Student Module:** Allows users to view active flash sales across campus, filter by Mahallah or food type, reserve items, and generate a digital pickup code.
+*   **Student Module:** Allows users to view active flash sales across campus, filter by Mahallah cafe or food type, reserve items, and generate a digital pickup code.
 *   **Vendor Module:** Provides operators with a simple dashboard to post available surplus items, set discount percentages, track active reservations, and verify student pickup codes.
 
 ### 1.4.2 Targeted User
@@ -71,7 +73,7 @@ The scope of the EcoBite application covers two primary modules:
 The project will be developed as a Web Application.
 
 *   **Hardware:** Development requires a standard PC/Laptop. Execution requires users to have smartphones or PCs with internet access.
-*   **Software/Tech Stack:** Standard web technologies (e.g., HTML/CSS, JavaScript, a framework like React or Vue, and a backend like MySQL or Firebase).
+*   **Software/Tech Stack:** Standard web technologies (e.g., HTML/CSS, JavaScript, a framework like React or Vue, and a backend like MySQL).
 *   **Network:** Requires an active internet connection (e.g., campus Wi-Fi or mobile data).
 *   **Infrastructure Limitations:** The Kulliyyah does not provide dedicated, publicly accessible cloud hosting servers for student project deployment. To handle this limitation, development will be conducted on local servers (e.g., XAMPP/Localhost), and final deployment for the presentation will utilize free-tier cloud platforms (such as Vercel for the frontend and Firebase for the backend) to fulfill requirements without incurring out-of-pocket costs.
 
@@ -79,7 +81,7 @@ The project will be developed as a Web Application.
 
 The major constraints foreseen for this project include:
 
-*   **Time Constraint:** The system must be fully developed, tested, and documented within one academic semester (approximately 14 weeks).
+*   **Time Constraint:** The system must be fully developed, tested, and documented within one academic semester (approximately 6-7 weeks).
 *   **Vendor Adoption:** Vendors are notoriously busy during closing hours; the system's interface must be incredibly simple and fast to ensure they actually commit to using it.
 *   **Budget Constraint:** As a student project, there is zero budget allocated for premium software licenses, paid domain names, or high-capacity server hosting.
 
@@ -113,7 +115,3 @@ In summary, the daily discarding of unsold food at Mahallah cafes represents bot
 *   Filimonau, V., & Gherbin, A. (2017). The hospitality industry and the challenge of food waste. *Journal of Cleaner Production*, 143, 856-868.
 *   Michelini, L., Principato, L., & Iasevoli, G. (2018). Understanding food sharing models to tackle sustainability challenges. *Ecological Economics*, 145, 205-217.
 *   Papargyropoulou, E., Lozano, R., Steinberger, J. K., Wright, N., & Ujang, Z. (2014). The food waste hierarchy as a framework for the management of food surplus and food waste. *Journal of Cleaner Production*, 76, 106-115.
-
-
-
-Once committed, the contents of the Google Doc will be visible on your repository's main page in the requested format.
