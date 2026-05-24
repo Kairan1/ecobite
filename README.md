@@ -114,30 +114,6 @@ In summary, the daily discarding of unsold food at Mahallah cafes represents bot
 *   Michelini, L., Principato, L., & Iasevoli, G. (2018). Understanding food sharing models to tackle sustainability challenges. *Ecological Economics*, 145, 205-217.
 *   Papargyropoulou, E., Lozano, R., Steinberger, J. K., Wright, N., & Ujang, Z. (2014). The food waste hierarchy as a framework for the management of food surplus and food waste. *Journal of Cleaner Production*, 76, 106-115.
 
-***
 
-### **Step-by-Step Guide to Uploading to GitHub**
-
-This guide assumes you already have a GitHub account and have created a repository for your project.
-
-**Step 1: Navigate to your GitHub Repository**
-1.  Open your web browser and go to [GitHub](https://github.com/).
-2.  Sign in to your account.
-3.  Navigate to the project repository where you want the `README.md` file.
-
-**Step 2: Create a New README.md File**
-1.  On your repository's main page, look for the **"Add a README"** button, or if you already have files, look for the **"Add file"** dropdown and select **"Create new file"**.
-    *   *If you already have a `README.md` file, click on it, then click the pencil icon (**Edit this file**) to edit the content.*
-2.  If you are creating a new file, name it exactly: `README.md`
-
-**Step 3: Paste the Content**
-1.  Copy the entire Markdown content provided above (from `# ECOBITE - A SURPLUS...` to the end of the references section).
-2.  Paste it into the editor area for the `README.md` file on GitHub.
-
-**Step 4: Commit the Changes**
-1.  Scroll down to the "Commit new file" section.
-2.  **Commit message:** Enter a brief description of the change (e.g., `Add Project Proposal to README.md`).
-3.  Ensure the option **"Commit directly to the `main` branch"** is selected (this is the default and simplest option for immediate upload).
-4.  Click the green **"Commit new file"** button.
 
 Once committed, the contents of the Google Doc will be visible on your repository's main page in the requested format.
