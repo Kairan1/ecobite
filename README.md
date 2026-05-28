@@ -1,59 +1,117 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# ECOBITE - A SURPLUS FOOD RESCUE WEB APPLICATION
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+**PROJECT PROPOSAL**
 
-## About Laravel
+*   Course: BIIT 2305 SEM 2 2025/2026
+*   Section: 03 (WEB APPLICATION DEVELOPMENT)
+*   Lecturer: DR. NAJHAN BIN MUHAMAD IBRAHIM
+*   Submission Date: 24TH MAY 2026
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## GROUP MEMBERS : Group 5 
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+| NAME | MATRIC NO |
+| :---: | :---: |
+| MUAZ BIN MOHD AZWARZAMANI | 2410355 |
+| MUHAMMAD AMMAR FAIZ BIN ABDUL RAHMAN | 2411723 |
+| ABDULAZEEZ UMAR OPEYEMI | 2320575 |
+| MUHAMMAD IMAN NURHAKIM BIN SAZALI | 2417689 |
+| MUHAMMAD HAZIQ RAFIF BIN ROHAIZAM | 2413307 |
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+---
 
-## Learning Laravel
+## 1.1 INTRODUCTION
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+For this class project, the selected application is **EcoBite: A Surplus Food Rescue Web Application**. This system is designed to tackle the issue of food waste within the university campus, especially in IIUM Gombak, by connecting budget-conscious students with Mahallah cafes and food kiosks that have unsold, surplus food at the end of the day. The application is planned to be developed as a responsive web-based platform. Its core specifications include a real-time vendor dashboard to list surplus food items at discounted prices (flash sales), a student interface to browse and reserve these items, and an automated pickup verification system. The application must be lightweight, responsive for mobile devices, and highly intuitive for vendors rushing to close their stalls.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## 1.2 PROBLEM DESCRIPTION
 
-## Laravel Sponsors
+### 1.2.1 Background of the problem
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+The application is designed for the university dining environment, specifically targeting Mahallah cafes and campus food kiosks. The primary users are university students looking for affordable meals, and the cafe operators managing the food stalls. Currently, vendors prepare food in bulk to meet peak-hour demands. However, predicting exact daily sales is difficult. Consequently, at the end of the operating hours, there is frequently a substantial amount of perfectly edible, unsold food. Currently, vendors either throw this food away or give it out randomly, resulting in lost revenue and significant food waste. Meanwhile, students, particularly those on tight budgets, are always seeking affordable meal options but have no reliable way of knowing which stalls have surplus food available at discounted prices.
 
-### Premium Partners
+### 1.2.2 Problem Statement
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+The specific problems with the existing environment that EcoBite aims to solve include:
 
-## Contributing
+*   **High Food Waste:** A significant amount of perfectly good, unsold food is discarded daily by campus vendors.
+*   **Lost Revenue for Vendors:** Vendors absorb the total cost of unsold ingredients rather than recovering a portion of it through discounted sales.
+*   **Missed Opportunities for Students:** Budget-conscious students lack a centralized, reliable way to find affordable, discounted meals at the end of the day.
+*   **Lack of Real-time Communication:** There is no existing platform for vendors to quickly broadcast "flash sales" to the student body just before closing.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## 1.3 PROJECT OBJECTIVE
 
-## Code of Conduct
+The main goal of this project is to develop a functional web application that reduces campus food waste by facilitating the sale of surplus food.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+**Reports to be produced:**
 
-## Security Vulnerabilities
+Throughout the project lifecycle, key reports will be produced, including the Project Proposal, the Software Requirements Specification (SRS), the Software Design Document (SDD), and the Final Project Report, which details the testing and evaluation phases.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+**Processes to be automated:**
 
-## License
+Based on the identified problems, the application will automate:
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+*   **Surplus Listing:** Automating the process for vendors to list remaining inventory at dynamically discounted prices quickly.
+*   **Reservation and Checkout:** Automating the student's ability to claim and pay for a discounted meal remotely before it is discarded.
+*   **Pickup Coordination:** Generating automated digital tickets or order codes to verify the student's claim upon physical pickup.
+
+## 1.4 PROJECT SCOPE
+
+### 1.4.1 Scope
+
+The scope of the EcoBite application covers two primary modules:
+
+*   **Student Module:** Allows users to view active flash sales across campus, filter by Mahallah cafe or food type, reserve items, and generate a digital pickup code.
+*   **Vendor Module:** Provides operators with a simple dashboard to post available surplus items, set discount percentages, track active reservations, and verify student pickup codes.
+
+### 1.4.2 Targeted User
+
+*   **Customers:** IIUM students and staff, primarily in the age group of 19–30 years old.
+*   **Vendors:** Mahallah cafe operators, food stall owners, and campus bakery staff.
+
+### 1.4.3 Specific Platform
+
+The project will be developed as a Web Application.
+
+*   **Hardware:** Development requires a standard PC/Laptop. Execution requires users to have smartphones or PCs with internet access.
+*   **Software/Tech Stack:** Standard web technologies (e.g., HTML/CSS, JavaScript, a framework like React or Vue, and a backend like MySQL).
+*   **Network:** Requires an active internet connection (e.g., campus Wi-Fi or mobile data).
+*   **Infrastructure Limitations:** The Kulliyyah does not provide dedicated, publicly accessible cloud hosting servers for student project deployment. To handle this limitation, development will be conducted on local servers (e.g., XAMPP/Localhost), and final deployment for the presentation will utilize free-tier cloud platforms (such as Vercel for the frontend and Firebase for the backend) to fulfill requirements without incurring out-of-pocket costs.
+
+## 1.5 CONSTRAINTS
+
+The major constraints foreseen for this project include:
+
+*   **Time Constraint:** The system must be fully developed, tested, and documented within one academic semester (approximately 6-7 weeks).
+*   **Vendor Adoption:** Vendors are notoriously busy during closing hours; the system's interface must be incredibly simple and fast to ensure they actually commit to using it.
+*   **Budget Constraint:** As a student project, there is zero budget allocated for premium software licenses, paid domain names, or high-capacity server hosting.
+
+## 1.6 PROJECT STAGES
+
+The project will follow structured milestones over the semester as detailed below:
+
+| Milestone | Deliverable | Target Date |
+| :---: | :---: | :---: |
+| Project Planning | Finalized Proposal & Gantt Chart | Week 9 |
+| Requirement Analysis | Software Requirements Specification (SRS) | Week 10 |
+| System Design | UI/UX Wireframes & Database ERD | Week 11 |
+| Implementation | Core Coding (Frontend & Backend) | Weeks 12 |
+| System Testing | Debugging and User Acceptance Testing | Week 13 |
+| Final Documentation | Final Project Report & Presentation Slides | Week 14 |
+
+## 1.7 SIGNIFICANCE OF THE PROJECT
+
+The implementation of EcoBite provides distinct benefits for all stakeholders:
+
+*   **For Students:** Provides access to affordable, discounted meals, helping them manage their daily living expenses more effectively.
+*   **For Vendors:** Allows them to recover production costs from food that would otherwise be thrown away, improving their overall profit margins and reducing waste disposal efforts.
+*   **For the University:** Promotes a green campus initiative by significantly reducing daily food waste and its associated environmental footprint.
+
+## 1.8 SUMMARY
+
+In summary, the daily discarding of unsold food at Mahallah cafes represents both a financial loss for vendors and an environmental issue, while students miss out on affordable meals. EcoBite is proposed as a web-based solution to bridge this gap through a surplus food rescue platform. Despite constraints regarding time, budget, and server infrastructure, the project aims to deliver functional customer and vendor modules using accessible web technologies. Successfully implementing this project will foster a more sustainable, economically efficient campus dining ecosystem.
+
+## 1.9 REFERENCES
+
+*   Filimonau, V., & Gherbin, A. (2017). The hospitality industry and the challenge of food waste. *Journal of Cleaner Production*, 143, 856-868.
+*   Michelini, L., Principato, L., & Iasevoli, G. (2018). Understanding food sharing models to tackle sustainability challenges. *Ecological Economics*, 145, 205-217.
+*   Papargyropoulou, E., Lozano, R., Steinberger, J. K., Wright, N., & Ujang, Z. (2014). The food waste hierarchy as a framework for the management of food surplus and food waste. *Journal of Cleaner Production*, 76, 106-115.
